@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital@0;1&family=Baloo+Bhai+2:wght@600&family=Sono&display=swap');
+
+.Lbar{
+    background-color: black;
+    height: 100%;
+    width: 30%;
+    position: absolute;
+    text-align: center;
+    font-family: 'Sono', sans-serif;
+}
+
+.circular-image{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%; 
+    border: 1px solid whitesmoke;
+    margin-top: 5%;
+}
