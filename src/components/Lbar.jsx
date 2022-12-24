@@ -1,12 +1,12 @@
 import Content from "./Content";
-import "./Lbar.css"
 import Name from "./Name";
+import './Lbar.css'
 import PicUploader from "./PicUploader";
 
 function Lbar(){
     return(
         
-            <div className="Lbar">
+            <div className="container-fluid Lbar print">
             <PicUploader/>
             <Name/>
             <Content/>    

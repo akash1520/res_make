@@ -1,0 +1,10 @@
+@media print {
+    
+body {visibility:hidden;}
+.print {visibility:visible;}
+
+    html{
+      width: 5in;
+      height: 5in;
+    }
+  }

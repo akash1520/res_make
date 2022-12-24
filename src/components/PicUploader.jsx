@@ -1,5 +1,4 @@
 import React from "react";
-
 function PicUploader(){
     const uploadedImage = React.useRef(null)
 
@@ -20,7 +19,7 @@ function PicUploader(){
         <div>  
             <label>
             <input hidden type="file" accept="image/*" onChange={handleImageUpload}/>
-            <img ref={uploadedImage} className="circular-image"/>
+            <img ref={uploadedImage} className="img-fluid circular-image"/>
             </label>
             
         </div>
